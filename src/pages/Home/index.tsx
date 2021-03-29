@@ -1,10 +1,8 @@
-import React from 'react'
-import './style.css'
+import React from "react";
+import "./style.css";
 
-export default function Home () {
-  return (
-    <div className='div-test'>
-      um texto qualquer
-    </div>
-  )
-}
+const Home: React.FC = () => {
+  return <div className="div-test">um texto qualquer</div>;
+};
+
+export default Home;
