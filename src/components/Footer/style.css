@@ -1,0 +1,23 @@
+.footer {
+  background-color: #ead6cc;
+  width: 1295px;
+  height: 102px;
+}
+
+.title2 {
+  color: #4c4c4c;
+  line-height: 15px;
+  font-weight: 600px;
+}
+
+.title1,
+.title2 {
+  font-size: 12px;
+  text-align: center;
+}
+
+.container {
+  width: 90%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
