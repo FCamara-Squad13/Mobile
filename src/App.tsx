@@ -2,7 +2,7 @@ import React from "react";
 import "./App.css";
 
 import Home from "./pages/Home";
-import Card from "./components/Card";
+// import Card from "./components/Card";
 import Hero from "./components/Hero";
 
 const App: React.FC = () => {
@@ -10,7 +10,6 @@ const App: React.FC = () => {
     <>
       <Home />
       <Hero />
-      <Card />
     </>
   );
 };

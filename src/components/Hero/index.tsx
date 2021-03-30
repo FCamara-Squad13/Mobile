@@ -4,8 +4,10 @@ import "./style.css";
 const Hero: React.FC = () => {
   return (
     <div className="hero">
-      <h2 className="title">Olá, Fulano!</h2>
-      <h3 className="subtitle">Que bom te ver por aqui :)</h3>
+      <div className="container">
+        <h4 className="title">Olá, Fulano!</h4>
+        <h6 className="subtitle">Que bom te ver por aqui :)</h6>
+      </div>
     </div>
   );
 };
