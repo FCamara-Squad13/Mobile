@@ -1,7 +1,6 @@
 /* eslint-disable react/prop-types */
 import React from "react";
 import "./style.css";
-import ImagePlaceholder from "../../assets/image-placeholder.svg";
 
 type Props = {
   imagePath: string;
