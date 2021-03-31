@@ -11,10 +11,6 @@
 
 .title {
   font-size: 38px;
-  font-family: semibold;
+  font-weight: 600;
   line-height: 45.6px;
-}
-
-.subtitle {
-  /* margin-left: 200px; */
 }
