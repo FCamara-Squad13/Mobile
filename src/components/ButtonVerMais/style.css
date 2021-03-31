@@ -1,0 +1,16 @@
+.buttonMoreView {
+  margin: 0 auto;
+  margin-left: 50%;
+}
+
+.more-view-button {
+  background-color: #66331e;
+  color: #ffffff;
+  font-weight: 600;
+  padding: 0.2rem;
+  border-radius: 16px;
+  width: 144px;
+  height: 32px;
+  font-size: 16px;
+  text-align: center;
+}
