@@ -1,3 +1,11 @@
+:root {
+  --color-peach-darker: #66331E;
+  --color-peach-secondary: #CC7452;
+  --color-cyan-terciary: #A8E0D1;
+  --color-purple-terciary: #A08EC9;
+  --text-color: #303030;
+}
+
 *,
 *::after,
 *::before {
@@ -8,4 +16,5 @@
 
 body {
   font-family: "Montserrat", sans-serif;
+  color: var(--text-color);
 }
