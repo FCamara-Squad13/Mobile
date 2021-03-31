@@ -1,11 +1,16 @@
+/* eslint-disable react/prop-types */
 import React from "react";
 import "./style.css";
-import { ReactComponent as ImagePlaceholder } from "../../assets/image-placeholder.svg";
+import ImagePlaceholder from "../../assets/image-placeholder.svg";
 
-const HomeCard: React.FC = () => {
+type Props = {
+  imagePath: string;
+};
+
+const HomeCard: React.FC<Props> = ({ imagePath }) => {
   return (
     <div className="home-card">
-      <ImagePlaceholder className="product-image" />
+      <img src={imagePath} alt="canetas" className="product-image" />
       <div className="product-data">
         <h3 className="product-title">Lápis de cor 24 cores</h3>
         <p className="product-location">Curitiba | PR</p>
