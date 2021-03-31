@@ -1,24 +1,16 @@
 import React from "react";
+import { BrowserRouter } from "react-router-dom";
+
 import "./App.css";
 
-import Home from "./pages/Home";
-
-import Hero from "./components/Hero";
-import Card from "./components/Card";
-import HomeCard from "./components/HomeCard";
-
-import Footer from "./components/Footer";
+import Routes from "./routes";
 
 const App: React.FC = () => {
   return (
     <>
-      <Home />
-      <Hero />
-      <div className="container">
-        <Card />
-        <HomeCard />
-      </div>
-      <Footer />
+      <BrowserRouter>
+        <Routes />
+      </BrowserRouter>
     </>
   );
 };
