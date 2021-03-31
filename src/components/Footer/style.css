@@ -1,6 +1,12 @@
 .footer {
   background-color: #ead6cc;
   padding: 3em 0;
+  height: 102px;
+  max-width: 1440px;
+}
+
+.title1 {
+  font-weight: 300px;
 }
 
 .title2 {
@@ -13,10 +19,4 @@
 .title2 {
   font-size: 12px;
   text-align: center;
-}
-
-.container {
-  width: 90%;
-  max-width: 1200px;
-  margin: 0 auto;
 }
