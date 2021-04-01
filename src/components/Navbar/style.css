@@ -1,12 +1,18 @@
+.navbar-content {
+  display: flex;
+  width: 100%;
+}
+
 .logo {
   color: white;
   background-color: #565555;
   width: 118px;
+  max-width: 30%;
   height: 48px;
   font-weight: 400;
   text-align: center;
   line-height: 15px;
-  border: 0px;
+  border: none;
 }
 
 .home,
@@ -41,11 +47,6 @@
   font-size: 16px;
   line-height: 24px;
   color: #161616;
-}
-
-.nav {
-  display: flex;
-  justify-content: space-between;
 }
 
 .iconNotification {

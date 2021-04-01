@@ -3,12 +3,6 @@
   background-repeat: cover;
 }
 
-.container {
-  width: 90%;
-  max-width: 1200px;
-  margin: 0 auto;
-}
-
 .title {
   font-size: 38px;
   font-weight: 600;
