@@ -5,7 +5,7 @@ import Hero from "../../components/Hero";
 import Navbar from "../../components/Navbar";
 import "./style.css";
 
-const Doacao: React.FC = () => {
+const Doando: React.FC = () => {
   const subtitle = `Aqui vocẽ pode encontrar tudo que precisa de materiais escolares, sejam eles novos ou usados. Se não encontrar algo, procure através dos filtros, eles estão aqui para te ajudar!\n Vai que tem alguém doando, aí pertindo de você?`;
 
   return (
@@ -18,4 +18,4 @@ const Doacao: React.FC = () => {
   );
 };
 
-export default Doacao;
+export default Doando;
