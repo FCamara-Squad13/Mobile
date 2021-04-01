@@ -11,8 +11,8 @@ const Teste: React.FC = () => {
     <>
       <Navbar />
       <Hero />
-      <CardHolder />
-      <CardHolder />
+      <CardHolder title="O que estão doando na sua região" />
+      <CardHolder title="Quem está precisando de doação na sua região" />
       <Footer />
     </>
   );
