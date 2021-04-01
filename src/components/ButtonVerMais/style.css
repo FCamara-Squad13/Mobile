@@ -3,13 +3,16 @@
 }
 
 .more-view-button {
-  background-color: #66331e;
-  color: #ffffff;
   font-weight: 600;
+  font-size: 16px;
+  line-height: 24px;
+  text-align: center;
+  background-color: var(--color-peach-darker);
+  color: #FFFFFF;
   padding: 0.2rem;
   border-radius: 16px;
   width: 144px;
   height: 32px;
-  font-size: 16px;
-  text-align: center;
+  margin-bottom: 24px;
+  border: none;
 }
