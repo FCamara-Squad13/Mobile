@@ -6,8 +6,8 @@ const Hero: React.FC = () => {
     <div className="hero">
       <div className="container">
         <div className="hero-content">
-          <h4 className="title">Olá, Fulano!</h4>
-          <h6 className="subtitle">Que bom te ver por aqui :)</h6>
+          <h4 className="hero-title">Olá, Fulano!</h4>
+          <h6 className="hero-subtitle">Que bom te ver por aqui :)</h6>
         </div>
       </div>
     </div>
