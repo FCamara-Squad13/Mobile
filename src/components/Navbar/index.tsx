@@ -1,5 +1,7 @@
 import React from "react";
 import "./style.css";
+import { Bell } from "react-feather";
+import profile from "../../assets/avatar.png";
 
 const Navbar: React.FC = () => {
   return (
@@ -10,11 +12,34 @@ const Navbar: React.FC = () => {
         </button>
       </div>
       <div className="menu">
-        
+        <button type="button" className="home">
+          Home
+        </button>
+        <button type="button" className="donating">
+          Estão doando
+        </button>
+        <button type="button" className="needing">
+          Estão precisando
+        </button>
       </div>
       <div className="user-actions">
-        <div className="btnAnnounce" />
-        <div className="icon" />
+        <div className="announce">
+          <button type="button" className="btnAnnounce">
+            Anúnciar
+          </button>
+        </div>
+        <div className="iconNotification">
+          <Bell />
+        </div>
+        <div className="iconProfile">
+          <img
+            src={profile}
+            alt="profile"
+            className="profile"
+            width="24px"
+            height="33px"
+          />
+        </div>
       </div>
     </nav>
   );
