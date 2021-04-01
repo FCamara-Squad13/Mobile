@@ -13,8 +13,7 @@ Ou então, doar aquele material novinho, que você nunca usou e não vai fazer f
     <>
       <Navbar />
       <Hero title="Tem alguém precisando?" subtitle={subtitle} />
-      <CardHolder title="O que estão doando na sua região" />
-      <CardHolder title="Quem está precisando de doação na sua região" />
+      <CardHolder title="" />
       <Footer />
     </>
   );
