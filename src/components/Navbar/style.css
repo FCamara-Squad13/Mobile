@@ -1,13 +1,14 @@
 .navbar-content {
-  display: flex;
   width: 100%;
+  padding: 24px 0;
+  display: flex;
+  justify-content: space-between;
 }
 
 .logo {
   color: white;
   background-color: #565555;
   width: 118px;
-  max-width: 30%;
   height: 48px;
   font-weight: 400;
   text-align: center;
@@ -15,26 +16,25 @@
   border: none;
 }
 
-.home,
-.donating,
-.needing {
+.navbar-button {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
   background-color: #ffffff;
   width: 182px;
   height: 48px;
   border: 0;
-  font-size: 16px;
-  line-height: 24px;
 }
 
-.home {
+.active {
   font-weight: 600;
   text-align: center;
   border-bottom: 3px solid #a08ec9;
 }
 
-.donating,
-.needing {
-  font-weight: 400;
+.user-actions {
+  display: flex;
+  justify-content: space-between;
 }
 
 .btnAnnounce {
@@ -46,15 +46,26 @@
   font-weight: 600;
   font-size: 16px;
   line-height: 24px;
-  color: #161616;
+  color: var(--color-dark-secondary);
+  align-self: center;
+  margin-right: 24px;
 }
 
-.iconNotification {
-  color: #66331e;
+.icons {
+  display: flex;
+  align-items: center;
 }
 
-.iconProfile {
-  border: 1px solid #66331e;
+.icon-notification {
+  color: var(-color-peach-darker);
+  margin-right: 8px;
+}
+
+.icon-profile {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid #66331E;
   border-radius: 50%;
   width: 40px;
   height: 40px;

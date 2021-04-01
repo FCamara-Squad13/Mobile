@@ -8,39 +8,35 @@ const Navbar: React.FC = () => {
     <nav className="navbar">
       <div className="container">
         <div className="navbar-content">
-          <div>
-            <button type="button" className="logo" placeholder="LOGO DO SITE">
-              LOGO DO SITE
-            </button>
-          </div>
+          <button type="button" className="logo" placeholder="LOGO DO SITE">
+            LOGO DO SITE
+          </button>
           <div className="menu">
-            <button type="button" className="home">
+            <button type="button" className="navbar-button active">
               Home
             </button>
-            <button type="button" className="donating">
+            <button type="button" className="navbar-button">
               Estão doando
             </button>
-            <button type="button" className="needing">
+            <button type="button" className="navbar-button">
               Estão precisando
             </button>
           </div>
           <div className="user-actions">
-            <div className="announce">
-              <button type="button" className="btnAnnounce">
-                Anunciar
-              </button>
-            </div>
-            <div className="iconNotification">
-              <Bell />
-            </div>
-            <div className="iconProfile">
-              <img
-                src={profile}
-                alt="profile"
-                className="profile"
-                width="24px"
-                height="33px"
-              />
+            <button type="button" className="btnAnnounce">
+              Anunciar
+            </button>
+            <div className="icons">
+              <Bell color="#66331E" className="icon-notification" />
+              <div className="icon-profile">
+                <img
+                  src={profile}
+                  alt="profile"
+                  className="profile"
+                  width="24px"
+                  height="33px"
+                />
+              </div>
             </div>
           </div>
         </div>
