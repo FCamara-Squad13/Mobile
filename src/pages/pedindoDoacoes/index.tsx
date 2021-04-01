@@ -6,10 +6,13 @@ import Navbar from "../../components/Navbar";
 import "./style.css";
 
 const pedindoDoacoes: React.FC = () => {
+  const subtitle = `Que tal ajudar alguém doando aquele material escolar que está parado aí, na sua casa?
+Ou então, doar aquele material novinho, que você nunca usou e não vai fazer falta. Vamos espalhar sorrisos por aí?`;
+
   return (
     <>
       <Navbar />
-      <Hero />
+      <Hero title="Tem alguém precisando?" subtitle={subtitle} />
       <CardHolder title="O que estão doando na sua região" />
       <CardHolder title="Quem está precisando de doação na sua região" />
       <Footer />

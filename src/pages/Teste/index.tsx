@@ -10,7 +10,7 @@ const Teste: React.FC = () => {
   return (
     <>
       <Navbar />
-      <Hero />
+      <Hero title="" subtitle="" />
       <CardHolder title="O que estão doando na sua região" />
       <CardHolder title="Quem está precisando de doação na sua região" />
       <Footer />

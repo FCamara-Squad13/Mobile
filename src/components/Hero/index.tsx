@@ -1,13 +1,18 @@
 import React from "react";
 import "./style.css";
 
-const Hero: React.FC = () => {
+type Props = {
+  title: string;
+  subtitle: string;
+};
+
+const Hero: React.FC<Props> = ({ title, subtitle }) => {
   return (
     <div className="hero">
       <div className="container">
         <div className="hero-content">
-          <h4 className="hero-title">Olá, Fulano!</h4>
-          <h6 className="hero-subtitle">Que bom te ver por aqui :)</h6>
+          <h4 className="hero-title">{title}</h4>
+          <h6 className="hero-subtitle">{subtitle}</h6>
         </div>
       </div>
     </div>
