@@ -2,7 +2,6 @@ import React from "react";
 import "./style.css";
 
 import CardHolder from "../../components/CardHolder";
-import ButtonVerMais from "../../components/ButtonVerMais";
 import Navbar from "../../components/Navbar";
 import Footer from "../../components/Footer";
 import Hero from "../../components/Hero";
@@ -13,7 +12,7 @@ const Teste: React.FC = () => {
       <Navbar />
       <Hero />
       <CardHolder />
-      <ButtonVerMais />
+      <CardHolder />
       <Footer />
     </>
   );

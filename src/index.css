@@ -1,6 +1,7 @@
 :root {
-  --color-peach-darker: #66331E;
+  --color-peach-primary: #E59C7F;
   --color-peach-secondary: #CC7452;
+  --color-peach-darker: #66331E;
   --color-cyan-terciary: #A8E0D1;
   --color-purple-terciary: #A08EC9;
   --color-dark-primary: #4C4C4C;
@@ -22,7 +23,7 @@ body {
 }
 
 .container {
-  width: 1200px;
+  max-width: 1200px;
   width: 90%;
   margin: 0 auto;
 }
