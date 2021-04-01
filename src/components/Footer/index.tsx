@@ -3,12 +3,14 @@ import "./style.css";
 
 const Footer: React.FC = () => {
   return (
-    <div className="footer">
+    <footer className="footer">
       <div className="container">
-        <h3 className="title1">Squad 13-FCamera</h3>
-        <h3 className="title2">Todos os direitos reservados,2021.</h3>
+        <div className="footer-content">
+          <h3 className="footer__title1">Squad 13-FCamera</h3>
+          <h3 className="footer__title2">Todos os direitos reservados,2021.</h3>
+        </div>
       </div>
-    </div>
+    </footer>
   );
 };
 
