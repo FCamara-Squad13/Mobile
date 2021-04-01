@@ -12,7 +12,7 @@ const Home: React.FC = () => {
       <Navbar />
       <Hero />
       <CardHolder title="O que estão doando na sua região" />
-      <CardHolder title="Quem está precisando de doação na rus região" />
+      <CardHolder title="Quem está precisando de doação na sua região" />
       <Footer />
     </>
   );
