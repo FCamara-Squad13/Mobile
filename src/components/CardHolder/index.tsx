@@ -1,6 +1,7 @@
 import React from "react";
 import "./style.css";
 
+import { ChevronLeft, ChevronRight } from "react-feather";
 import HomeCard from "../HomeCard";
 
 import canetas from "../../assets/images/Canetas.png";
@@ -16,7 +17,8 @@ const CardHolder: React.FC = () => {
           <div className="section-header">
             <h3 className="section-title">O que estão doando na sua região</h3>
             <div className="section-nav">
-              <p> {`<= =>`} </p>
+              <ChevronLeft />
+              <ChevronRight />
             </div>
           </div>
           <div className="card-holder">
