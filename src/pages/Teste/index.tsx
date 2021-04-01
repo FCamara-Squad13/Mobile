@@ -3,11 +3,12 @@ import "./style.css";
 
 import CardHolder from "../../components/CardHolder";
 import ButtonVerMais from "../../components/ButtonVerMais";
+import Navbar from "../../components/Navbar";
 
 const Teste: React.FC = () => {
   return (
     <>
-      <h1>testando</h1>
+      <Navbar />
       <CardHolder />
       <ButtonVerMais />
     </>
