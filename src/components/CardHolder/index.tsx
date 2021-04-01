@@ -14,13 +14,7 @@ const CardHolder: React.FC = () => {
     <section className="section">
       <div className="container">
         <div className="section-content">
-          <div className="section-header">
-            <h3 className="section-title">O que estão doando na sua região</h3>
-            <div className="section-nav">
-              <ChevronLeft />
-              <ChevronRight />
-            </div>
-          </div>
+          <h3 className="section-title">O que estão doando na sua região</h3>
           <div className="card-holder">
             <HomeCard imagePath={canetas} />
             <HomeCard imagePath={lapis} />

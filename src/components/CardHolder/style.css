@@ -10,9 +10,16 @@
   font-size: 28px;
   line-height: 34.13px;
   color: #000000;
+  margin: 40px 0;
+}
+
+.nav-icon {
+  background-color: var(--color-peach-primary);
+  border-radius: 50%;
 }
 
 .card-holder {
   display: flex;
   justify-content: space-between;
+  flex-wrap: wrap;
 }
