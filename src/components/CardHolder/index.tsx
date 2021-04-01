@@ -1,7 +1,6 @@
 import React from "react";
 import "./style.css";
 
-import { ChevronLeft, ChevronRight } from "react-feather";
 import HomeCard from "../HomeCard";
 
 import canetas from "../../assets/images/Canetas.png";
