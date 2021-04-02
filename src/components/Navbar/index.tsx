@@ -1,6 +1,7 @@
 import React from "react";
 import "./style.css";
 import { Bell } from "react-feather";
+import { Link } from "react-router-dom";
 import profile from "../../assets/avatar.png";
 
 const Navbar: React.FC = () => {
@@ -12,15 +13,21 @@ const Navbar: React.FC = () => {
             LOGO DO SITE
           </button>
           <div className="menu">
-            <button type="button" className="navbar-button active">
-              Home
-            </button>
-            <button type="button" className="navbar-button">
-              Estão doando
-            </button>
-            <button type="button" className="navbar-button">
-              Estão precisando
-            </button>
+            <Link to="/">
+              <button type="button" className="navbar-button active">
+                Home
+              </button>
+            </Link>
+            <Link to="/doando">
+              <button type="button" className="navbar-button">
+                Estão doando
+              </button>
+            </Link>
+            <Link to="/precisando">
+              <button type="button" className="navbar-button">
+                Estão precisando
+              </button>
+            </Link>
           </div>
           <div className="user-actions">
             <button type="button" className="btnAnnounce">
