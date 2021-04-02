@@ -1,11 +1,16 @@
 import React from "react";
+import { Search as Icon } from "react-feather";
 import "./style.css";
 
 const Search: React.FC = () => {
   return (
-    <div className="Search">
-      <div className="container">
-        <div className="Search-content" />
+    <div className="search">
+      <div className="input-search">
+        <Icon color="#66331E" />
+        <input
+          placeholder="Digite aqui o que você está procurando"
+          type="text"
+        />
       </div>
     </div>
   );
