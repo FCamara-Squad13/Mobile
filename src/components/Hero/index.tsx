@@ -13,7 +13,10 @@ const Hero: React.FC<Props> = ({ title, subtitle, heroPath }) => {
   };
 
   return (
-    <div className="hero" style={heroStyle}>
+    <div
+      className={`hero${heroPath === "" ? " no-hero-image" : ""}`}
+      style={heroStyle}
+    >
       <div className="container">
         <div className="hero-content">
           <h4 className="hero-title">{title}</h4>

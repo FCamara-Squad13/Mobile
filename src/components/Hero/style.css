@@ -1,8 +1,12 @@
 .hero {
+  background-color: var(--color-ligth-secondary);
   background-position: center center;
   background-size: cover;
   padding: 3em 0;
-  background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6));
+}
+
+.no-hero-image {
+  background: none var(--color-ligth-secondary)!important ;
 }
 
 .hero-title {
