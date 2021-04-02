@@ -7,6 +7,7 @@ import Footer from "../../components/Footer";
 import Hero from "../../components/Hero";
 import Card from "../../components/Card";
 import Search from "../../components/SearchBar";
+import ButtonNextPage from "../../components/ButtonNextPage";
 
 import canetas from "../../assets/images/Canetas.png";
 import lapis from "../../assets/images/Lapis.jpg";
@@ -18,6 +19,7 @@ const Teste: React.FC = () => {
       <Navbar />
       <Search />
       <Hero title="" subtitle="" />
+      <ButtonNextPage />
       <CardHolder title="O que estão doando na sua região" />
       <CardHolder title="Quem está precisando de doação na sua região" />
       <Card imagePath={canetas} />

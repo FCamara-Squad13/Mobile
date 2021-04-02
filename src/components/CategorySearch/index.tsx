@@ -2,7 +2,7 @@ import React from "react";
 import { Search as Icon } from "react-feather";
 import "./style.css";
 
-const Search: React.FC = () => {
+const CategorySearch: React.FC = () => {
   return (
     <div className="search">
       <div className="input-search">
