@@ -11,16 +11,12 @@ import Search from "../../components/SearchBar";
 import canetas from "../../assets/images/Canetas.png";
 import lapis from "../../assets/images/Lapis.jpg";
 import lancheira from "../../assets/images/Lancheira.jpg";
-import Search from "../../components/SearchBar";
 
 const Teste: React.FC = () => {
   return (
     <>
       <Navbar />
-      <Hero />
       <Search />
-      <CardHolder />
-      <CardHolder />
       <Hero title="" subtitle="" />
       <CardHolder title="O que estão doando na sua região" />
       <CardHolder title="Quem está precisando de doação na sua região" />
