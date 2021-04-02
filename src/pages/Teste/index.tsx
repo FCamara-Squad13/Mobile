@@ -11,12 +11,14 @@ import canetas from "../../assets/images/Canetas.png";
 import lapis from "../../assets/images/Lapis.jpg";
 import lancheira from "../../assets/images/Lancheira.jpg";
 
+import homeHero from "../../assets/images/Wallpaper-hero-home.png";
+
 const Teste: React.FC = () => {
   return (
     <>
       <Navbar />
       <Search />
-      <Hero title="" subtitle="" />
+      <Hero title="" subtitle="" heroPath={homeHero} />
       <CardHolder title="O que estão doando na sua região" />
       <CardHolder title="Quem está precisando de doação na sua região" />
       <Card imagePath={canetas} />
