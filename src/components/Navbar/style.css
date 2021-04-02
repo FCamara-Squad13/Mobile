@@ -16,6 +16,10 @@
   border: none;
 }
 
+.logo:hover {
+  cursor: pointer;
+}
+
 .menu {
   list-style: none;
   display: flex;
@@ -64,6 +68,10 @@
   color: var(--color-dark-secondary);
   align-self: center;
   margin-right: 24px;
+}
+
+.invisible {
+  visibility: hidden;
 }
 
 .icons {

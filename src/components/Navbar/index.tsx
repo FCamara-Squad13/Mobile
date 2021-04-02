@@ -26,11 +26,11 @@ const Navbar: React.FC = () => {
             </NavLink>
           </ul>
           <div className="user-actions">
-            <Link to="/anunciar">
+            <NavLink to="/anunciar" exact activeClassName="invisible">
               <button type="button" className="btnAnnounce">
                 Anunciar
               </button>
-            </Link>
+            </NavLink>
             <div className="icons">
               <Bell color="#66331E" className="icon-notification" />
               <div className="icon-profile">
