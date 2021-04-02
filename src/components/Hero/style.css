@@ -1,8 +1,12 @@
 .hero {
-  background-image: url(../../assets/Rectangle_1.png);
+  background-color: var(--color-ligth-secondary);
   background-position: center center;
   background-size: cover;
   padding: 3em 0;
+}
+
+.no-hero-image {
+  background: none var(--color-ligth-secondary)!important ;
 }
 
 .hero-title {

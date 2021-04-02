@@ -4,11 +4,19 @@ import "./style.css";
 type Props = {
   title: string;
   subtitle: string;
+  heroPath: string;
 };
 
-const Hero: React.FC<Props> = ({ title, subtitle }) => {
+const Hero: React.FC<Props> = ({ title, subtitle, heroPath }) => {
+  const heroStyle = {
+    backgroundImage: `linear-gradient(rgba(255,255,255,0.6),rgba(255,255,255,0.6)), url(${heroPath})`,
+  };
+
   return (
-    <div className="hero">
+    <div
+      className={`hero${heroPath === "" ? " no-hero-image" : ""}`}
+      style={heroStyle}
+    >
       <div className="container">
         <div className="hero-content">
           <h4 className="hero-title">{title}</h4>

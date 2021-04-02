@@ -1,5 +1,4 @@
 import React from "react";
-import "./style.css";
 
 import CardHolder from "../../components/CardHolder";
 import Navbar from "../../components/Navbar";
@@ -13,13 +12,20 @@ import canetas from "../../assets/images/Canetas.png";
 import lapis from "../../assets/images/Lapis.jpg";
 import lancheira from "../../assets/images/Lancheira.jpg";
 
+import homeHero from "../../assets/images/Wallpaper-hero-home.png";
+
 const Teste: React.FC = () => {
   return (
     <>
       <Navbar />
+<<<<<<< HEAD
       <Hero title="" subtitle="" />
       <CategorySearch />
       <ButtonNextPage />
+=======
+      <Search />
+      <Hero title="" subtitle="" heroPath={homeHero} />
+>>>>>>> 7adf85b06b0cbd457054fb001ee47e57bb52254f
       <CardHolder title="O que estão doando na sua região" />
       <CardHolder title="Quem está precisando de doação na sua região" />
       <Card imagePath={canetas} />

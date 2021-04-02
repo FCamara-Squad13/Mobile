@@ -20,6 +20,12 @@
 
 .card-holder {
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   flex-wrap: wrap;
+}
+
+@media (min-width: 712px) {
+  .card-holder {
+    justify-content: space-between;
+  }
 }

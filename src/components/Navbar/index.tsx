@@ -1,6 +1,7 @@
 import React from "react";
 import "./style.css";
 import { Bell } from "react-feather";
+import { Link, NavLink } from "react-router-dom";
 import profile from "../../assets/avatar.png";
 
 const Navbar: React.FC = () => {
@@ -8,24 +9,28 @@ const Navbar: React.FC = () => {
     <nav className="navbar">
       <div className="container">
         <div className="navbar-content">
-          <button type="button" className="logo" placeholder="LOGO DO SITE">
-            LOGO DO SITE
-          </button>
-          <div className="menu">
-            <button type="button" className="navbar-button active">
-              Home
+          <Link to="/">
+            <button type="button" className="logo" placeholder="LOGO DO SITE">
+              LOGO DO SITE
             </button>
-            <button type="button" className="navbar-button">
-              Estão doando
-            </button>
-            <button type="button" className="navbar-button">
-              Estão precisando
-            </button>
-          </div>
+          </Link>
+          <ul className="menu">
+            <NavLink to="/" exact activeClassName="active">
+              <li className="navbar-link">Home</li>
+            </NavLink>
+            <NavLink to="/doando" exact activeClassName="active">
+              <li className="navbar-link">Estão doando</li>
+            </NavLink>
+            <NavLink to="/precisando">
+              <li className="navbar-link">Estão precisando</li>
+            </NavLink>
+          </ul>
           <div className="user-actions">
-            <button type="button" className="btnAnnounce">
-              Anunciar
-            </button>
+            <NavLink to="/anunciar" exact activeClassName="invisible">
+              <button type="button" className="btnAnnounce">
+                Anunciar
+              </button>
+            </NavLink>
             <div className="icons">
               <Bell color="#66331E" className="icon-notification" />
               <div className="icon-profile">
