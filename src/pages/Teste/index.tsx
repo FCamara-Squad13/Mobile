@@ -6,7 +6,7 @@ import Navbar from "../../components/Navbar";
 import Footer from "../../components/Footer";
 import Hero from "../../components/Hero";
 import Card from "../../components/Card";
-import Search from "../../components/SearchBar";
+import CategorySearch from "../../components/CategorySearch";
 import ButtonNextPage from "../../components/ButtonNextPage";
 
 import canetas from "../../assets/images/Canetas.png";
@@ -17,8 +17,8 @@ const Teste: React.FC = () => {
   return (
     <>
       <Navbar />
-      <Search />
       <Hero title="" subtitle="" />
+      <CategorySearch />
       <ButtonNextPage />
       <CardHolder title="O que estão doando na sua região" />
       <CardHolder title="Quem está precisando de doação na sua região" />

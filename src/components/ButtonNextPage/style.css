@@ -1,23 +1,20 @@
-.buttonNextPage {
-  margin: 0 auto;
-}
-
 .next-page-button {
-  position: absolute;
   font-weight: 600;
-  font-style: normal;
   font-size: 16px;
   line-height: 24px;
-  text-align: center;
   background-color: var(--color-peach-darker);
   color: #ffffff;
   width: 193px;
   height: 40px;
+  margin: 0 auto;
   border: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .icon-arrow {
-  position: absolute;
   width: 20px;
   height: 18px;
+  margin-left: 7px;
 }
