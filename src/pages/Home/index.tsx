@@ -1,5 +1,4 @@
 import React from "react";
-import "./style.css";
 
 import Hero from "../../components/Hero";
 import CardHolder from "../../components/CardHolder";
