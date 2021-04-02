@@ -32,9 +32,11 @@ const Navbar: React.FC = () => {
             </Link>
           </div>
           <div className="user-actions">
-            <button type="button" className="btnAnnounce">
-              Anunciar
-            </button>
+            <Link to="/anunciar">
+              <button type="button" className="btnAnnounce">
+                Anunciar
+              </button>
+            </Link>
             <div className="icons">
               <Bell color="#66331E" className="icon-notification" />
               <div className="icon-profile">
