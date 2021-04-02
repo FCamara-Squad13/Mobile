@@ -66,6 +66,10 @@
   margin-right: 24px;
 }
 
+.invisible {
+  visibility: hidden;
+}
+
 .icons {
   display: flex;
   align-items: center;
