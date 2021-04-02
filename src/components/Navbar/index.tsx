@@ -9,9 +9,11 @@ const Navbar: React.FC = () => {
     <nav className="navbar">
       <div className="container">
         <div className="navbar-content">
-          <button type="button" className="logo" placeholder="LOGO DO SITE">
-            LOGO DO SITE
-          </button>
+          <Link to="/">
+            <button type="button" className="logo" placeholder="LOGO DO SITE">
+              LOGO DO SITE
+            </button>
+          </Link>
           <div className="menu">
             <Link to="/">
               <button type="button" className="navbar-button active">
