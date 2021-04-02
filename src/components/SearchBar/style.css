@@ -1,4 +1,4 @@
-input {
+.input-search {
   width: 448px;
   height: 36px;
   border-radius: 8px;
@@ -9,4 +9,11 @@ input {
   background: #ffffff;
   padding: 16px;
   border: 1px solid #5e3525;
+}
+
+input {
+  background: transparent;
+  width: 448px;
+  height: 36px;
+  border: 0px;
 }
