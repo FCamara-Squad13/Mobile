@@ -9,7 +9,7 @@ import Precisando from "../pages/Precisando";
 const Routes: React.FC = () => (
   <Switch>
     <Route path="/" exact component={Home} />
-    <Route path="/doacao" component={Doando} />
+    <Route path="/doando" component={Doando} />
     <Route path="/precisando" component={Precisando} />
     <Route path="/teste" component={Teste} />
   </Switch>
