@@ -16,6 +16,10 @@
   border: none;
 }
 
+.logo:hover {
+  cursor: pointer;
+}
+
 .menu {
   list-style: none;
   display: flex;
