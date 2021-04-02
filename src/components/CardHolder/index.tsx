@@ -8,12 +8,16 @@ import lapis from "../../assets/images/Lapis.jpg";
 import lancheira from "../../assets/images/Lancheira.jpg";
 import ButtonVerMais from "../ButtonVerMais";
 
-const CardHolder: React.FC = () => {
+type Props = {
+  title: string;
+};
+
+const CardHolder: React.FC<Props> = ({ title }) => {
   return (
     <section className="section">
       <div className="container">
         <div className="section-content">
-          <h3 className="section-title">O que estão doando na sua região</h3>
+          <h3 className="section-title">{title}</h3>
           <div className="card-holder">
             <HomeCard imagePath={canetas} />
             <HomeCard imagePath={lapis} />

@@ -10,8 +10,9 @@ const Home: React.FC = () => {
   return (
     <>
       <Navbar />
-      <Hero />
-      <CardHolder />
+      <Hero title="Olá, Fulano!" subtitle="Que bom te ver por aqui :)" />
+      <CardHolder title="O que estão doando na sua região" />
+      <CardHolder title="Quem está precisando de doação na sua região" />
       <Footer />
     </>
   );
