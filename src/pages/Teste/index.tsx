@@ -1,5 +1,4 @@
 import React from "react";
-import "./style.css";
 
 import CardHolder from "../../components/CardHolder";
 import Navbar from "../../components/Navbar";

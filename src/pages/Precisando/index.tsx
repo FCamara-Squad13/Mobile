@@ -3,7 +3,6 @@ import CardHolder from "../../components/CardHolder";
 import Footer from "../../components/Footer";
 import Hero from "../../components/Hero";
 import Navbar from "../../components/Navbar";
-import "./style.css";
 
 const Precisando: React.FC = () => {
   const subtitle = `Que tal ajudar alguém doando aquele material escolar que está parado aí, na sua casa?
