@@ -1,8 +1,9 @@
 import React from "react";
-import Hero from "../../components/Hero";
+import { Link } from "react-router-dom";
 
 import "./style.css";
 
+import Hero from "../../components/Hero";
 import anuncioDoacao from "../../assets/images/anuncio-doacao.png";
 import pedidoDoacao from "../../assets/images/pedido-doacao.png";
 import BackToHome from "../../components/BackToHome";
@@ -20,19 +21,23 @@ const Anunciar: React.FC = () => {
           <BackToHome />
           <div className="images-container">
             <div className="announcement-wrapper">
-              <img
-                src={anuncioDoacao}
-                alt="caixa de presente com rosto sorridente, com uma mão colocando coraçõeszinhos dentro dela"
-                className="action-image"
-              />
+              <Link to="/nova-doacao">
+                <img
+                  src={anuncioDoacao}
+                  alt="caixa de presente com rosto sorridente, com uma mão colocando coraçõeszinhos dentro dela"
+                  className="action-image"
+                />
+              </Link>
               <h3 className="call-to-action">Anúncio de doação</h3>
             </div>
             <div className="announcement-wrapper">
-              <img
-                src={pedidoDoacao}
-                alt="três caixas abertas, com desenho de coração e corações flutuando por sobbre elas"
-                className="action-image"
-              />
+              <Link to="/novo-pedido">
+                <img
+                  src={pedidoDoacao}
+                  alt="três caixas abertas, com desenho de coração e corações flutuando por sobbre elas"
+                  className="action-image"
+                />
+              </Link>
               <h3 className="call-to-action">Pedido de doação</h3>
             </div>
           </div>

@@ -10,6 +10,8 @@ import Anunciar from "../pages/Anunciar";
 import Navbar from "../components/Navbar";
 import Footer from "../components/Footer";
 import Detalhes from "../pages/Details";
+import NovaDoacao from "../pages/NovaDoacao";
+import NovoPedido from "../pages/NovoPedido";
 
 const Routes: React.FC = () => (
   <>
@@ -22,6 +24,8 @@ const Routes: React.FC = () => (
       <Route path="/teste" component={Teste} />
       <Route path="/chat" component={Chat} />
       <Route path="/detalhes" component={Detalhes} />
+      <Route path="/nova-doacao" component={NovaDoacao} />
+      <Route path="/novo-pedido" component={NovoPedido} />
     </Switch>
     <Footer />
   </>
