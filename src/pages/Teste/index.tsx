@@ -18,7 +18,10 @@ const Teste: React.FC = () => {
   return (
     <>
       <Navbar />
+<<<<<<< HEAD
       <Hero title="" subtitle="" heroPath="" />
+=======
+>>>>>>> 6050fdad6d4f73581c7014fe381f8c564143b510
       <CategorySearch />
       <ButtonNextPage />
       <Hero title="" subtitle="" heroPath={homeHero} />
