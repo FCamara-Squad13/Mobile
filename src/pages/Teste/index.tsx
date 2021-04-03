@@ -18,14 +18,10 @@ const Teste: React.FC = () => {
   return (
     <>
       <Navbar />
-<<<<<<< HEAD
-      <Hero title="" subtitle="" />
+      <Hero title="" subtitle="" heroPath="" />
       <CategorySearch />
       <ButtonNextPage />
-=======
-      <Search />
       <Hero title="" subtitle="" heroPath={homeHero} />
->>>>>>> 7adf85b06b0cbd457054fb001ee47e57bb52254f
       <CardHolder title="O que estão doando na sua região" />
       <CardHolder title="Quem está precisando de doação na sua região" />
       <Card imagePath={canetas} />
