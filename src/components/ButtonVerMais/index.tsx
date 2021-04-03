@@ -1,15 +1,16 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import "./style.css";
 
-const ButtonVerMais: React.FC = () => {
+type Props = {
+  path: string;
+};
+
+const ButtonVerMais: React.FC<Props> = ({ path }) => {
   return (
-    <div className="buttonMoreView">
-      <div className="container">
-        <button type="button" className="more-view-button">
-          Ver mais
-        </button>
-      </div>
-    </div>
+    <Link to={path} className="view-more-button">
+      Ver mais
+    </Link>
   );
 };
 
