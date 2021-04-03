@@ -81,4 +81,6 @@
   color: white;
   background-color: var(--color-peach-secondary);
   border: none;
+  text-align: center;
+  text-decoration: none;
 }

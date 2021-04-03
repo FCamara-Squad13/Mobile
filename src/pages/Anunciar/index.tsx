@@ -1,11 +1,11 @@
 import React from "react";
-import { Link } from "react-router-dom";
 import Hero from "../../components/Hero";
 
 import "./style.css";
 
 import anuncioDoacao from "../../assets/images/anuncio-doacao.png";
 import pedidoDoacao from "../../assets/images/pedido-doacao.png";
+import BackToHome from "../../components/BackToHome";
 
 const Anunciar: React.FC = () => {
   const heroTitle = "Escolha o que você precisa fazer hoje";
@@ -17,9 +17,7 @@ const Anunciar: React.FC = () => {
       <Hero title={heroTitle} subtitle={heroSubtitle} heroPath={heroPath} />
       <div className="container">
         <div className="anunciar-page-content">
-          <Link to="/" className="go-back-link">
-            Voltar à página inicial
-          </Link>
+          <BackToHome />
           <div className="images-container">
             <div className="announcement-wrapper">
               <img

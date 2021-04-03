@@ -1,4 +1,6 @@
 import React from "react";
+import { Link } from "react-router-dom";
+
 import "./style.css";
 
 type Props = {
@@ -26,9 +28,9 @@ const HomeCard: React.FC<Props> = ({ imagePath }) => {
         <span className="delivery-tag">Entrego pessoalmente</span>
         {/* <span className="delivery-tag">Envio</span> */}
       </div>
-      <button type="button" className="see-details-button">
+      <Link to="/detalhes" className="see-details-button">
         Detalhes
-      </button>
+      </Link>
     </div>
   );
 };

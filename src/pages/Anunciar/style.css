@@ -4,16 +4,6 @@
   flex-direction: column;
 }
 
-.go-back-link {
-  font-weight: 400;
-  font-size: 14px;
-  line-height: 17.07px;
-  color: var(--color-peach-darkest);
-  text-decoration: none;
-  display: block;
-  margin-top: 18px;
-}
-
 .images-container {
   display: flex;
   justify-content: space-evenly;
