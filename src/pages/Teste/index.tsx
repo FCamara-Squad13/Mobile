@@ -13,12 +13,16 @@ import lapis from "../../assets/images/Lapis.jpg";
 import lancheira from "../../assets/images/Lancheira.jpg";
 
 import homeHero from "../../assets/images/Wallpaper-hero-home.png";
+import ErrorModal from "../../components/ErrorModal";
+import ConfirmationModal from "../../components/ConfirmationModal";
 
 const Teste: React.FC = () => {
   return (
     <>
       <Navbar />
       <Hero title="" subtitle="" heroPath="" />
+      <ErrorModal />
+      <ConfirmationModal />
       <CategorySearch />
       <ButtonNextPage />
       <Hero title="" subtitle="" heroPath={homeHero} />
