@@ -6,7 +6,6 @@ import HomeCard from "../HomeCard";
 import canetas from "../../assets/images/Canetas.png";
 import lapis from "../../assets/images/Lapis.jpg";
 import lancheira from "../../assets/images/Lancheira.jpg";
-import ButtonVerMais from "../ButtonVerMais";
 
 type Props = {
   title: string;
@@ -23,7 +22,6 @@ const CardHolder: React.FC<Props> = ({ title }) => {
             <HomeCard imagePath={lapis} />
             <HomeCard imagePath={lancheira} />
           </div>
-          <ButtonVerMais />
         </div>
       </div>
     </section>
