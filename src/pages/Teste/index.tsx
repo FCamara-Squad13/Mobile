@@ -13,12 +13,14 @@ import lapis from "../../assets/images/Lapis.jpg";
 import lancheira from "../../assets/images/Lancheira.jpg";
 
 import homeHero from "../../assets/images/Wallpaper-hero-home.png";
+import ErrorModal from "../../components/ErrorModal";
 
 const Teste: React.FC = () => {
   return (
     <>
       <Navbar />
       <Hero title="" subtitle="" heroPath="" />
+      <ErrorModal />
       <CategorySearch />
       <ButtonNextPage />
       <Hero title="" subtitle="" heroPath={homeHero} />
