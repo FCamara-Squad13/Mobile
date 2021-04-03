@@ -1,10 +1,14 @@
-import React from "react";
+import React, { useLayoutEffect } from "react";
 import Hero from "../../components/Hero";
 import CardHolder from "../../components/CardHolder";
 
 import heroDoando from "../../assets/images/img-hero-doando.png";
 
 const Doando: React.FC = () => {
+  useLayoutEffect(() => {
+    window.scrollTo(0, 0);
+  });
+
   const subtitle = `Aqui vocẽ pode encontrar tudo que precisa de materiais escolares, sejam eles novos ou usados. Se não encontrar algo, procure através dos filtros, eles estão aqui para te ajudar!\n Vai que tem alguém doando, aí pertindo de você?`;
 
   return (
