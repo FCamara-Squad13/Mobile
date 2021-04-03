@@ -1,8 +1,6 @@
 import React from "react";
 import CardHolder from "../../components/CardHolder";
-import Footer from "../../components/Footer";
 import Hero from "../../components/Hero";
-import Navbar from "../../components/Navbar";
 
 import heroPrecisando from "../../assets/images/img-hero-precisando.png";
 
@@ -12,14 +10,12 @@ Ou então, doar aquele material novinho, que você nunca usou e não vai fazer f
 
   return (
     <>
-      <Navbar />
       <Hero
         title="Tem alguém precisando?"
         subtitle={subtitle}
         heroPath={heroPrecisando}
       />
       <CardHolder title="" />
-      <Footer />
     </>
   );
 };
