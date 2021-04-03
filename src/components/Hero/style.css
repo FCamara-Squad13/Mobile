@@ -10,9 +10,10 @@
 }
 
 .hero-title {
-  font-weight: 600;
+  font-weight: 500;
   font-size: 38px;
   line-height: 45.6px;
+  max-width: 600px;
 }
 
 .hero-subtitle {
