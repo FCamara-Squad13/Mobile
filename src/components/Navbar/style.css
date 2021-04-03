@@ -71,6 +71,7 @@
   color: var(--color-dark-secondary);
   align-self: center;
   margin-right: 24px;
+  cursor: pointer;
 }
 
 .invisible {
