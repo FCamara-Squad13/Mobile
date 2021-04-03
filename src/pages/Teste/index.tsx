@@ -1,8 +1,6 @@
 import React from "react";
 
 import CardHolder from "../../components/CardHolder";
-import Navbar from "../../components/Navbar";
-import Footer from "../../components/Footer";
 import Hero from "../../components/Hero";
 import Card from "../../components/Card";
 import CategorySearch from "../../components/CategorySearch";
@@ -19,7 +17,6 @@ import ConfirmationModal from "../../components/ConfirmationModal";
 const Teste: React.FC = () => {
   return (
     <>
-      <Navbar />
       <Hero title="" subtitle="" heroPath="" />
       <ErrorModal />
       <ConfirmationModal />
@@ -31,7 +28,6 @@ const Teste: React.FC = () => {
       <Card imagePath={canetas} />
       <Card imagePath={lapis} />
       <Card imagePath={lancheira} />
-      <Footer />
     </>
   );
 };

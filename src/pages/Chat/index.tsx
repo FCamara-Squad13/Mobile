@@ -1,13 +1,10 @@
 import React from "react";
 
-import Footer from "../../components/Footer";
-import Navbar from "../../components/Navbar";
-
 const Home: React.FC = () => {
   return (
     <>
-      <Navbar />
-      <Footer />
+      <h1>hi</h1>
+      <h1>hi</h1>
     </>
   );
 };

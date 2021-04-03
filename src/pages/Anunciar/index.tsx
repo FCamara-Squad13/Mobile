@@ -1,8 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import Footer from "../../components/Footer";
 import Hero from "../../components/Hero";
-import Navbar from "../../components/Navbar";
 
 import "./style.css";
 
@@ -16,7 +14,6 @@ const Anunciar: React.FC = () => {
 
   return (
     <>
-      <Navbar />
       <Hero title={heroTitle} subtitle={heroSubtitle} heroPath={heroPath} />
       <div className="container">
         <div className="anunciar-page-content">
@@ -43,7 +40,6 @@ const Anunciar: React.FC = () => {
           </div>
         </div>
       </div>
-      <Footer />
     </>
   );
 };

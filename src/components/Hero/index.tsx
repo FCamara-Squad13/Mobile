@@ -9,7 +9,7 @@ type Props = {
 
 const Hero: React.FC<Props> = ({ title, subtitle, heroPath }) => {
   const heroStyle = {
-    backgroundImage: `linear-gradient(rgba(255,255,255,0.6),rgba(255,255,255,0.6)), url(${heroPath})`,
+    backgroundImage: `linear-gradient(rgba(255,255,255,0.7),rgba(255,255,255,0.8)), url(${heroPath})`,
   };
 
   return (
