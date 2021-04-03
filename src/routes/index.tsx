@@ -4,6 +4,7 @@ import { Switch, Route } from "react-router-dom";
 import Home from "../pages/Home";
 import Teste from "../pages/Teste";
 import Doando from "../pages/Doando";
+import Chat from "../pages/Chat";
 import Precisando from "../pages/Precisando";
 import Anunciar from "../pages/Anunciar";
 
@@ -14,6 +15,7 @@ const Routes: React.FC = () => (
     <Route path="/precisando" component={Precisando} />
     <Route path="/anunciar" component={Anunciar} />
     <Route path="/teste" component={Teste} />
+    <Route path="/chat" component={Chat} />
   </Switch>
 );
 

@@ -28,6 +28,7 @@
 .input-holder {
   width: 448px;
   position: relative;
+  font-style: italic;
 }
 
 .search-icon {
