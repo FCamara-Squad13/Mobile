@@ -41,11 +41,15 @@ Usuários avulsos e anônimos podem acessar, buscar a escola com base em alguns 
  <li>Visibilidade é chave, precisamos saber quem está trabalhando, colaborando e o que estão fazendo. Commit seu código várias vezes por dia, isso vai ajudar a ver exatamente o que você fez e seu modo de pensar.</li>
 </ul>
 
-
 <h2>link:</h2>http://localhost:3000/
-<ul>
--- Este site foi construido com ReactJs, HTML, CSS e Javascript
-</ul>
+
+##🚀Technologies
+The main technologies used in our aplication are:
+
+-[React](https://pt-br.reactjs.org/)
+-[Html]
+-CSS
+-JavaScript
 
 <h2>Telas prontas: </h2>
 <ul>
@@ -56,6 +60,11 @@ Usuários avulsos e anônimos podem acessar, buscar a escola com base em alguns 
 </ul>
 
 --OBS: Telas prontas porem ,ainda faltando algumas telas e outras coisas ,testado e sem bugs .
+
+
+##💻 Getting Started
+
+
 
 <h2>Projeto de solução FCamara criado e desenvolvido por:</h2>
 <ul>
