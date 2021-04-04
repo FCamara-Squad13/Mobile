@@ -43,7 +43,7 @@ Usuários avulsos e anônimos podem acessar, buscar a escola com base em alguns 
 
 <h2>link:</h2>http://localhost:3000/
 
-##🚀Technologies
+## 🚀Technologies
 The main technologies used in our aplication are:
 
 -[React](https://pt-br.reactjs.org/)
@@ -62,7 +62,7 @@ The main technologies used in our aplication are:
 --OBS: Telas prontas porem ,ainda faltando algumas telas e outras coisas ,testado e sem bugs .
 
 
-##💻 Getting Started
+## 💻 Getting Started
 
 
 
