@@ -90,7 +90,7 @@
   line-height: 14.63px;
   width: max-content;
   border-radius: 10px;
-  margin-top: 0.5em;
+  margin-bottom: 15px;
 }
 
 .see-details-button {
@@ -98,7 +98,7 @@
   font-size: 16px;
   line-height: 24px;
   width: 144px;
-  margin: 32px auto 0;
+  margin: 10px auto 0;
   padding: 8px 0;
   color: white;
   background-color: var(--color-peach-secondary);
