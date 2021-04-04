@@ -54,12 +54,34 @@
   flex-direction: column;
 }
 
+.tag-area-title {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.category-tag {
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 14.63px;
+  color: var(--color-peach-darkest);
+  border: 1px solid rgba(102, 51, 30, 0.6);
+  border-radius: 10px;
+  margin: 12px 0;
+  width: 233px;
+  padding: 0.3em 0;
+  text-align: center;
+  display: block;
+}
+
 .delivery-tag {
   display: block;
   font-weight: 300;
   background-color: var(--color-cyan-terciary);
   padding: 0.15em 0.65em;
   max-width: 100%;
+  min-width: 150px;
+  text-align: center;
 }
 
 .product-tag,
