@@ -1,0 +1,11 @@
+.publish-ad-button {
+  background-color: var(--color-grayscale);
+  width: 560px;
+  height: 60px;
+  font-weight: 500;
+  font-size: 21px;
+  line-height: 25.2px;
+  text-align: center;
+  color: #ffffff;
+  border: none;
+}

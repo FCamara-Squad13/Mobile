@@ -5,6 +5,7 @@ import Home from "../pages/Home";
 import Teste from "../pages/Teste";
 import Doando from "../pages/Doando";
 import Chat from "../pages/Chat";
+import PublicarAnuncio from "../pages/PublicarAnuncio";
 import Precisando from "../pages/Precisando";
 import Anunciar from "../pages/Anunciar";
 import Navbar from "../components/Navbar";
@@ -21,6 +22,7 @@ const Routes: React.FC = () => (
       <Route path="/doando" component={Doando} />
       <Route path="/precisando" component={Precisando} />
       <Route path="/anunciar" component={Anunciar} />
+      <Route path="/publicar" component={PublicarAnuncio} />
       <Route path="/teste" component={Teste} />
       <Route path="/chat" component={Chat} />
       <Route path="/detalhes" component={Detalhes} />
