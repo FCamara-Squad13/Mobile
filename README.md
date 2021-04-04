@@ -1,5 +1,5 @@
 <h1 align="center">
-  Squad 13 - FCamera 
+  Squad 13 - FCamera
 </h1>
 <h1>Hackathon FCamara</h1>
 
@@ -41,11 +41,16 @@ Usuários avulsos e anônimos podem acessar, buscar a escola com base em alguns 
  <li>Visibilidade é chave, precisamos saber quem está trabalhando, colaborando e o que estão fazendo. Commit seu código várias vezes por dia, isso vai ajudar a ver exatamente o que você fez e seu modo de pensar.</li>
 </ul>
 
+<h2>link:</h2>https://programa-formacao-fcamara-qquad13-frontend.vercel.app/
 
-<h2>link:</h2>http://localhost:3000/
-<ul>
--- Este site foi construido com ReactJs, HTML, CSS e Javascript
-</ul>
+## 🚀Technologies
+
+The main technologies used in our aplication are:
+
+-[React](https://pt-br.reactjs.org/)
+-Html
+-CSS
+-JavaScript
 
 <h2>Telas prontas: </h2>
 <ul>
@@ -57,6 +62,28 @@ Usuários avulsos e anônimos podem acessar, buscar a escola com base em alguns 
 
 --OBS: Telas prontas porem ,ainda faltando algumas telas e outras coisas ,testado e sem bugs .
 
+## 💻 Getting started
+
+### Installing and configuring the project
+
+_Clone the project and access the folder_
+
+```bash
+$ git clone https://github.com/FCamara-Squad13/frontend.git && cd frontend
+```
+
+_Follow the steps below_
+
+```bash
+# Install the dependencies
+$ yarn install
+
+# Finally, run the service in a development environment :)
+$ yarn start
+
+# Well done, project is started!
+```
+
 <h2>Projeto de solução FCamara criado e desenvolvido por:</h2>
 <ul>
   <li>Stefany Langner (UX) </li>
@@ -64,4 +91,3 @@ Usuários avulsos e anônimos podem acessar, buscar a escola com base em alguns 
   <li>Karina Ramos (Dev) </li>
   <li>Thiago Adomaitis (Dev) </li>
 </ul>
-
