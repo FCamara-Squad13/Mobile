@@ -5,7 +5,7 @@ import Hero from "../../components/Hero";
 import Card from "../../components/Card";
 import CategorySearch from "../../components/CategorySearch";
 import ButtonNextPage from "../../components/ButtonNextPage";
-
+import ButtonPublishAd from "../../components/ButtonPublicarAnuncio";
 import canetas from "../../assets/images/Canetas.png";
 import lapis from "../../assets/images/Lapis.jpg";
 import lancheira from "../../assets/images/Lancheira.jpg";
@@ -22,6 +22,7 @@ const Teste: React.FC = () => {
       <ConfirmationModal />
       <CategorySearch />
       <ButtonNextPage />
+      <ButtonPublishAd />
       <Hero title="" subtitle="" heroPath={homeHero} />
       <CardHolder title="O que estão doando na sua região" />
       <CardHolder title="Quem está precisando de doação na sua região" />
