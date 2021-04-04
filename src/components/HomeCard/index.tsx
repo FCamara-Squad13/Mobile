@@ -30,6 +30,7 @@ const HomeCard: React.FC<Props> = ({ imagePath }) => {
       </div>
       <div className="delivery-conditions">
         <h3 className="tag-area-title delivery-title">Condições de entrega</h3>
+        <span className="delivery-tag">Entrego pessoalmente</span>
         <span className="delivery-tag">Envio</span>
       </div>
       <Link to="/detalhes" className="see-details-button">
