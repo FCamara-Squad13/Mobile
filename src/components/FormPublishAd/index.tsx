@@ -92,13 +92,12 @@ const FormPublishAd: React.FC = () => {
         <div className="your-location">
           <h2 className="title-donating">Sua localização</h2>
           <span className="state">Estado</span>
+          <select className="input-state-donating">
+            <option>Selecione o UF</option>
+          </select>
+          <span className="city">Cidade</span>
           <input
-            type="select"
-            className="input-state-donating"
-            placeholder="Selecione o UF"
-          />
-          <input
-            type="select"
+            type="text"
             className="input-city-donating"
             placeholder="Digite aqui sua cidade"
           />

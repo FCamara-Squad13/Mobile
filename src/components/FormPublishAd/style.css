@@ -4,9 +4,12 @@
   line-height: 120%;
   color: var(--color-dark-primary);
 }
-
 .input-donating {
   width: 560px;
+}
+
+.input-donating,
+.input-city-donating {
   height: 40px;
   border: 0.5px solid #5e3525;
   font-style: italic;
@@ -60,4 +63,28 @@
 
 .send {
   width: 132px;
+}
+
+.state,
+.city {
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 24px;
+  color: var(--color-dark-primary);
+}
+
+.input-state-donating {
+  border-bottom: 2px solid #66331e;
+  background: #ffffff;
+  border: 0.5px solid #5e3525;
+  width: 160px;
+  height: 40px;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  color: var(--color-grayscale);
+}
+
+.input-city-donating {
+  width: 368px;
 }
