@@ -12,7 +12,7 @@ import Navbar from "../components/Navbar";
 import Footer from "../components/Footer";
 import Detalhes from "../pages/Detalhes";
 import NovaDoacao from "../pages/NovaDoacao";
-import NovoPedido from "../pages/NovoPedido";
+import NovoPedido from "../pages/NovoPedido/NovoPedido";
 
 const Routes: React.FC = () => (
   <>
