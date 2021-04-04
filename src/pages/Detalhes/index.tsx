@@ -1,6 +1,8 @@
 import React from "react";
 import BackToHome from "../../components/BackToHome";
 
+import "./style.css";
+
 import lapis from "../../assets/images/Lapis-12.png";
 import avatar from "../../assets/avatar.png";
 
@@ -45,8 +47,11 @@ const Detalhes: React.FC = () => {
         <div className="more-details">
           <h3 className="more-details">Detalhes</h3>
           <h4 className="more-details-subtitle">Categoria</h4>
+          <span className="category-tag">Canetas, lápis e borrachas</span>
           <h4 className="more-details-subtitle">Condições de entrega</h4>
+          <span className="delivery-tag">Envio</span>
           <h4 className="more-details-subtitle">Condições de uso</h4>
+          <span className="product-tag product-tag-details">Usado</span>
         </div>
       </div>
     </div>
