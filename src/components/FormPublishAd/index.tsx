@@ -1,3 +1,4 @@
+/* eslint-disable jsx-a11y/label-has-associated-control */
 import React from "react";
 import "./style.css";
 
@@ -9,94 +10,119 @@ const FormPublishAd: React.FC = () => {
     <div className="new-donation-content">
       <div className="form-publish-ad">
         <form className="new-donation">
-          <h2 className="title-donating">O que você está doando?</h2>
-          <input
-            type="text"
-            className="input-donating"
-            placeholder="Digite aqui o que você esta doando"
-          />
-          <span className="span-description-donating">
-            Exemplo:Lápis de cor 24 cores
-          </span>
-          <span className="span-number-donating">0/60</span>
-
-          <h2 className="title-donating">Descrição do anúncio</h2>
-          <input
-            type="text"
-            className="input-donating"
-            placeholder="Descreva de forma objetiva o que você está doando"
-          />
-          <span className="span-description-donating">
-            Exemplo:Estou doando esses lápis de cor da marca Faber Castell, eles
-            estão todos apontados e foram usados poucas vezes.
-          </span>
-          <span className="span-number-donating">0/200</span>
-
-          <h2 className="title-donating">Qual a categoria da sua doação?</h2>
-          <select className="input-donating">
-            <option>Selecione uma categoria</option>
-            <option value="Lapis">Lápis</option>
-            <option value="Cadernos">Cadernos</option>
-          </select>
-          <span className="span-description-donating">
-            Selecione a melhor categoria para identificar o que você está
-            doando.
-          </span>
-
-          <h2 className="title-donating">Palavras-chave</h2>
-          <input
-            type="text"
-            className="input-donating"
-            placeholder="Separe cada palavra-chave por vírgula"
-          />
-          <span className="span-description-donating">
-            Exemplo:lápis,lápis de cor, faber castell
-          </span>
-          <div className="use-conditions">
-            <h2 className="title-donating">Condições de uso</h2>
-            <div className="buttons-wrapper">
-              <button type="button" className="new">
-                Novo
-              </button>
-              <button type="button" className="new">
-                Usado
-              </button>
+          <div className="input-div">
+            <h2 className="input-label">O que você está doando?</h2>
+            <input
+              type="text"
+              className="input-donating"
+              placeholder="Digite aqui o que você esta doando"
+            />
+            <div className="input-footer">
+              <span className="donation-description">
+                Exemplo: Lápis de cor 24 cores
+              </span>
+              <span className="span-number-donating">0/60</span>
             </div>
-            <span className="span-conditions-donating">
+          </div>
+
+          <div className="input-div">
+            <h2 className="input-label">Descrição do anúncio</h2>
+            <input
+              type="text"
+              className="input-donating"
+              placeholder="Descreva de forma objetiva o que você está doando"
+            />
+            <span className="donation-description">
+              Exemplo:Estou doando esses lápis de cor da marca Faber Castell,
+              eles estão todos apontados e foram usados poucas vezes.
+            </span>
+            <span className="span-number-donating">0/200</span>
+          </div>
+
+          <div className="input-div">
+            <h2 className="input-label">Qual a categoria da sua doação?</h2>
+            <select className="input-donating">
+              <option>Selecione uma categoria</option>
+              <option value="Lapis">Lápis</option>
+              <option value="Cadernos">Cadernos</option>
+            </select>
+            <span className="donation-description">
+              Selecione a melhor categoria para identificar o que você está
+              doando.
+            </span>
+          </div>
+
+          <div className="input-div">
+            <h2 className="input-label">Palavras-chave</h2>
+            <input
+              type="text"
+              className="input-donating"
+              placeholder="Separe cada palavra-chave por vírgula"
+            />
+            <span className="donation-description">
+              Exemplo:lápis,lápis de cor, faber castell
+            </span>
+          </div>
+          <div className="input-div use-conditions">
+            <div className="radio">
+              <label className="input-radio-label">
+                <input className="input-radio" type="radio" value="novo" />
+                Novo
+              </label>
+              <label className="input-radio-label">
+                <input className="input-radio" type="radio" value="usado" />
+                Usado
+              </label>
+            </div>
+            <span className="donation-description">
               Se o que você está doando já foi usado de alguma forma, marque
               como usado
             </span>
           </div>
-          <div className="delivery-conditions-donating">
-            <h2 className="title-donating">Condiçoẽs de uso</h2>
-            <button type="button" className="delivery-to-match">
-              Entrega a combinar
-            </button>
-            <button type="button" className="delivery-to-place">
-              Entrego no local
-            </button>
-            <button type="button" className="send">
-              Envio
-            </button>
-            <span className="span-delivery-donating">
+          <div className="input-div delivery-conditions">
+            <div className="radio">
+              <label className="input-radio-label">
+                <input
+                  className="input-radio"
+                  type="radio"
+                  value="a combinar"
+                />
+                Entrega a combinar
+              </label>
+              <label className="input-radio-label">
+                <input className="input-radio" type="radio" value="no local" />
+                Entrego no local
+              </label>
+              <label className="input-radio-label">
+                <input className="input-radio" type="radio" value="Envio" />
+                Envio
+              </label>
+            </div>
+            <span className="donation-description">
               Selecione a opção que faz mais sentido para sua realidade,assim
               outras pessoas vão saber como você fará a entrega do que está
               doando.Lembre-se: tudo pode ser negociado :)
             </span>
           </div>
-          <div className="your-location">
-            <h2 className="title-donating">Sua localização</h2>
-            <span className="state">Estado</span>
-            <select className="input-state-donating">
-              <option>Selecione o UF</option>
-            </select>
-            <span className="city">Cidade</span>
-            <input
-              type="text"
-              className="input-city-donating"
-              placeholder="Digite aqui sua cidade"
-            />
-            <span className="span-location-donating">
+          <div className="input-div donation-location">
+            <h2 className="input-label">Sua localização</h2>
+            <div className="location-wrapper">
+              <div className="uf-wrapper">
+                <span className="state">Estado</span>
+                <select className="input-state-donating">
+                  <option>Selecione o UF</option>
+                </select>
+              </div>
+              <div className="city-wrapper">
+                <span className="city">Cidade</span>
+                <input
+                  type="text"
+                  className="input-city-donating"
+                  placeholder="Digite aqui sua cidade"
+                />
+              </div>
+            </div>
+            <span className="donation-description">
               Só precisamos saber sua cidade e Estado para facilitar o contato e
               a entrega da doação.Seu endereço não será solicitado e quem decide
               como vai fazer a doação é você
