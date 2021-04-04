@@ -1,3 +1,26 @@
+.new-donation-content {
+  display: block;
+  width: 100%;
+}
+
+.form-publish-ad {
+  display: flex;
+}
+
+.new-donation {
+  display: flex;
+  flex-direction: column;
+}
+
+.use-conditions {
+  display: flex;
+  flex-direction: column;
+}
+
+.buttons-wrapper {
+  display: flex;
+}
+
 .title-donating {
   font-weight: 500;
   font-size: 21px;
@@ -87,4 +110,8 @@
 
 .input-city-donating {
   width: 368px;
+}
+
+.new-donation-images-wrapper img {
+  max-width: 100%;
 }

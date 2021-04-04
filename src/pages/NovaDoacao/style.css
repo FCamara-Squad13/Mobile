@@ -1,0 +1,16 @@
+.new-donation-title {
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 29px;
+  color: var(--color-dark-primary);
+  padding: 16px 0 18px;
+  border-bottom: 1px solid #B2B2B2;
+}
+
+.all-fields-must-be-filled {
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 15px;
+  color: var(--color-peach-secondary);
+  margin: 12px 0;
+}
