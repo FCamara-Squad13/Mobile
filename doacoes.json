@@ -1,0 +1,62 @@
+[
+    {
+        "id": 1,
+        "titulo": "Lápis de cor 12 cores",
+        "localidade": "Curitiba | PR",
+        "descricao": "Estou doando esses lápis de cor da marca Faber Castell, eles estão todos apontados e foram usados poucas vezes",
+        "data": "28/03/2021",
+        "categoria": "Canetas, lápis e borrachas",
+        "entrega": ["Envio"],
+        "status": "usado"
+    },
+    {
+        "id": 2,
+        "titulo": "Mochila Grande",
+        "localidade": "Curitiba | PR",
+        "descricao": "Tenho essa mochila guardada e não tenho mais espaço, não estou usando e se alguém precisar fico feliz em doar!",
+        "data": "27/03/2021",
+        "categoria": "Bolsas,estojos e mochilas",
+        "entrega": ["Entrega a combinar"],
+        "status": "usado"
+    },
+    {
+        "id": 3,
+        "titulo": "Lancheira Infantil",
+        "localidade": "Curitiba | PR",
+        "descricao": "Ganhamos essa lancheira no natal do ano passado mas minha filha nunca usou, está com etiqueta e cabe bastante coisa.",
+        "data": "25/03/2021",
+        "categoria": "Bolsas,estojos e mochilas",
+        "entrega": ["Entrega no local"],
+        "status": "novo"
+    },
+    { "id": 4,
+        "titulo": "Lápis de cor 12 cores",
+        "localidade": "Curitiba | PR",
+        "descricao": "Estou doando esses lápis de cor da marca Faber Castell, eles estão todos apontados e foram usados poucas vezes",
+        "data": "28/03/2021",
+        "categoria": "Canetas, lápis e borrachas",
+        "entrega": ["Envio"],
+        "status": "usado"
+    },
+    {
+        "id": 5,
+        "titulo": "Mochila Grande",
+        "localidade": "Curitiba | PR",
+        "descricao": "Tenho essa mochila guardada e não tenho mais espaço, não estou usando e se alguém precisar fico feliz em doar!",
+        "data": "27/03/2021",
+        "categoria": "Bolsas,estojos e mochilas",
+        "entrega": ["Entrega a combinar"],
+        "status": "usado"
+    },
+    {
+        "id": 6,
+        "titulo": "Lancheira Infantil",
+        "localidade": "Curitiba | PR",
+        "descricao": "Ganhamos essa lancheira no natal do ano passado mas minha filha nunca usou, está com etiqueta e cabe bastante coisa.",
+        "data": "25/03/2021",
+        "categoria": "Bolsas,estojos e mochilas",
+        "entrega": ["Entrega no local"],
+        "status": "novo"
+        
+    }
+]

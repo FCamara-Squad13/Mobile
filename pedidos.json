@@ -1,0 +1,58 @@
+[
+    {
+        "id": 1,
+        "titulo": "Lápis de cor 12 cores",
+        "localidade": "Curitiba | PR",
+        "descricao": "Minha filha está precisando de lápis de cor de 12 cores, pode ser novo ou usado agradeço quem puder ajudar.",
+        "data": "30/03/2021",
+        "categoria": "Canetas, lápis e borrachas"
+        
+    },
+    {
+        "id": 2,
+        "titulo": "Apostilas de Inglês",
+        "localidade": "Colombo | PR",
+        "descricao": "Estou precisando de apostilas de inglês, na escola dos meus filhos eles não disponibilizam e eu não tenho condições de comprar.",
+        "data": "29/03/2021",
+        "categoria": "Apostilas e Livros"
+        
+    },
+    {
+        "id": 3,
+        "titulo": "Canetas esferográficas",
+        "localidade": "Colombo | PR",
+        "descricao": "Começamos o ano letivo sem canetas esferográficas e minha filha está precisando para suas atividades na escola.",
+        "data": "29/03/2021",
+        "categoria": "Bolsas,estojos e mochilas"
+        
+    },
+    {
+        "id": 4,
+        "titulo": "Lápis de cor 12 cores",
+        "localidade": "Curitiba | PR",
+        "descricao": "Minha filha está precisando de lápis de cor de 12 cores, pode ser novo ou usado agradeço quem puder ajudar.",
+        "data": "30/03/2021",
+        "categoria": "Canetas, lápis e borrachas"
+        
+    },
+    {
+        "id": 5,
+        "titulo": "Apostilas de Inglês",
+        "localidade": "Colombo | PR",
+        "descricao": "Estou precisando de apostilas de inglês, na escola dos meus filhos eles não disponibilizam e eu não tenho condições de comprar.",
+        "data": "29/03/2021",
+        "categoria": "Apostilas e Livros"
+        
+    },
+    {
+        "id": 6,
+        "titulo": "Canetas esferográficas",
+        "localidade": "Colombo | PR",
+        "descricao": "Começamos o ano letivo sem canetas esferográficas e minha filha está precisando para suas atividades na escola.",
+        "data": "29/03/2021",
+        "categoria": "Bolsas,estojos e mochilas"
+        
+    }
+        
+]
+               
