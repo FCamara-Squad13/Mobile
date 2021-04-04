@@ -7,6 +7,8 @@ import lapis1 from "../../assets/images/Lapis.jpg";
 import lapis2 from "../../assets/images/Lapis2.jpg";
 import lapis3 from "../../assets/images/Lapis3.jpg";
 import avatar from "../../assets/avatar.png";
+import blackStar from "../../assets/images/blackstar.png";
+import editPencil from "../../assets/images/pencil-button.svg";
 
 const Detalhes: React.FC = () => {
   return (
@@ -55,19 +57,54 @@ const Detalhes: React.FC = () => {
             </div>
           </div>
           <aside className="person-data">
-            <img src={avatar} alt="foto de perfil" />
-            <p className="person-name">Pamela Halpert</p>
-            <p className="person-location">Curitiba, PR</p>
-            <p className="person-rate">5 * Avaliação</p>
-            <p className="person-donations-amount">Doações realizadas 3</p>
-            <p className="person-received-donations-amount">
-              Pedidos de doação 1
+            <div className="personal-data">
+              <div className="profile-picture">
+                <img
+                  className="profile-picture-image"
+                  src={avatar}
+                  alt="foto de perfil"
+                />
+              </div>
+              <div className="name-wrapper">
+                <p className="person-name">Pamela Halpert</p>
+                <p className="person-location">Curitiba, PR</p>
+              </div>
+              <div className="rate-wrapper">
+                <div className="person-rate">
+                  <p className="person-rate-number">5</p>
+                  <img
+                    className="rate-star"
+                    src={blackStar}
+                    alt="estrela preta"
+                  />
+                </div>
+                <p className="person-rate">Avaliação</p>
+              </div>
+            </div>
+            <div className="donations-data">
+              <div className="amount">
+                <p className="donations-amount">Doações realizadas</p>
+                <span className="donations-number">3</span>
+              </div>
+              <div className="amount">
+                <p className="donations-amount">Pedidos de doação</p>
+                <span className="donations-number">1</span>
+              </div>
+            </div>
+            <p className="person-registration">
+              Está aqui desde
+              <br />
+              20/02/2021
             </p>
-            <p className="person-registration">Está aqui desde 20/02/2021</p>
             <div className="edit-announcement">
               <button className="edit-announcement-button" type="button">
                 Editar anúncio
               </button>
+              <img
+                className="edit-announcement-icon"
+                src={editPencil}
+                alt="pencil icon"
+              />
               <p className="edit-instruction">
                 Você deve editar o status do anúncio quando estiver em
                 negociação com alguém ou quando ele for finalizado.
