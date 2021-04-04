@@ -9,7 +9,7 @@ import Precisando from "../pages/Precisando";
 import Anunciar from "../pages/Anunciar";
 import Navbar from "../components/Navbar";
 import Footer from "../components/Footer";
-import Detalhes from "../pages/Details";
+import Detalhes from "../pages/Detalhes";
 import NovaDoacao from "../pages/NovaDoacao";
 import NovoPedido from "../pages/NovoPedido";
 
