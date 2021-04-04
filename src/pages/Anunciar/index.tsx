@@ -10,7 +10,7 @@ import BackToHome from "../../components/BackToHome";
 
 const Anunciar: React.FC = () => {
   const heroTitle = "Escolha o que você precisa fazer hoje";
-  const heroSubtitle = "Procurou e não achou? Então vamos anunciar";
+  const heroSubtitle = "Procurou e não achou? Então vamos anunciar!";
   const heroPath = "";
 
   return (
