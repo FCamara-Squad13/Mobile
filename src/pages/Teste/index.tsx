@@ -6,6 +6,7 @@ import Card from "../../components/Card";
 import CategorySearch from "../../components/CategorySearch";
 import ButtonNextPage from "../../components/ButtonNextPage";
 import ButtonPublishAd from "../../components/ButtonPublicarAnuncio";
+import FormPublishAd from "../../components/FormPublishAd";
 import canetas from "../../assets/images/Canetas.png";
 import lapis from "../../assets/images/Lapis.jpg";
 import lancheira from "../../assets/images/Lancheira.jpg";
@@ -29,6 +30,7 @@ const Teste: React.FC = () => {
       <Card imagePath={canetas} />
       <Card imagePath={lapis} />
       <Card imagePath={lancheira} />
+      <FormPublishAd />
     </>
   );
 };
