@@ -15,7 +15,7 @@ const HomeCard: React.FC<Props> = ({ imagePath }) => {
         <span className="product-tag">Usado</span>
       </div>
       <div className="product-data">
-        <h3 className="product-title">Lápis de cor 24 cores</h3>
+        <h2 className="product-title">Lápis de cor 24 cores</h2>
       </div>
       <div className="announcement-data">
         <p className="product-location">Curitiba | PR</p>
@@ -24,9 +24,13 @@ const HomeCard: React.FC<Props> = ({ imagePath }) => {
           28/03/2021
         </p>
       </div>
+      <div className="product-category">
+        <h3 className="tag-area-title category-title">Categoria</h3>
+        <span className="category-tag">Canetas, lápis e borrachas</span>
+      </div>
       <div className="delivery-conditions">
-        <span className="delivery-tag">Entrego pessoalmente</span>
-        {/* <span className="delivery-tag">Envio</span> */}
+        <h3 className="tag-area-title delivery-title">Condições de entrega</h3>
+        <span className="delivery-tag">Envio</span>
       </div>
       <Link to="/detalhes" className="see-details-button">
         Detalhes
