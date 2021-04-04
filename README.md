@@ -60,7 +60,16 @@ The main technologies used in our aplication are:
   <li>Anunciar </li>
 </ul>
 
+<h3>Landing page</h3>
+<img src="imagens_telas/tela1.png">
+<h3>Estão doando</h3>
+<img src="imagens_telas/tela2.png">
+<h3>Estão precisando</h3>
+<img src="imagens_telas/tela3.png">
+<h3>Anunciar</h3>
+<img src="imagens_telas/tela4.png">
 --OBS: Telas prontas porem ,ainda faltando algumas telas e outras coisas ,testado e sem bugs .
+
 
 ## 💻 Getting started
 
