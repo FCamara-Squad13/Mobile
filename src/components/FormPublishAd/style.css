@@ -162,7 +162,7 @@
   width: 368px;
 }
 
-.submit-form {
+.submit-form-button {
   font-weight: 500;
   font-size: 21px;
   line-height: 25.2px;
@@ -173,4 +173,8 @@
   margin-bottom: 70px;
   color: #FFFFFF;
   background-color: #616161;
+}
+
+.submit-form-button:hover {
+  cursor: pointer;
 }
