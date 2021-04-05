@@ -1,0 +1,31 @@
+.chat-page-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.chat-area {
+  max-width: 780px;
+}
+
+.complaint-wrapper {
+  display: flex;
+  align-items: center;
+  margin-bottom: 65px;
+}
+
+.disclaimer {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+  color: var(--color-dark-secondary);
+  margin-bottom: 12px;
+}
+
+.complaint {
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 15px;
+  color: var(--color-peach-darkest);
+  margin-left: 6px;
+}

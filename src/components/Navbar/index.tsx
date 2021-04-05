@@ -2,6 +2,8 @@ import React from "react";
 import "./style.css";
 import { Bell } from "react-feather";
 import { Link, NavLink, useLocation } from "react-router-dom";
+
+import logo from "../../assets/images/logo.png";
 import profile from "../../assets/avatar.png";
 
 const Navbar: React.FC = () => {
@@ -11,9 +13,7 @@ const Navbar: React.FC = () => {
       <div className="container">
         <div className="navbar-content">
           <Link to="/">
-            <button type="button" className="logo" placeholder="LOGO DO SITE">
-              LOGO DO SITE
-            </button>
+            <img className="logo" src={logo} alt="logo do site" />
           </Link>
           <ul className="menu">
             <NavLink to="/" exact activeClassName="active">
