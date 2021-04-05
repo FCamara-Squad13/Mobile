@@ -162,6 +162,10 @@
   width: 368px;
 }
 
+.form-button {
+  text-decoration: none;
+}
+
 .submit-form-button {
   font-weight: 500;
   font-size: 21px;
