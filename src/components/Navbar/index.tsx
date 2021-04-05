@@ -1,10 +1,11 @@
 import React from "react";
 import "./style.css";
 import { Bell } from "react-feather";
-import { Link, NavLink } from "react-router-dom";
+import { Link, NavLink, useLocation } from "react-router-dom";
 import profile from "../../assets/avatar.png";
 
 const Navbar: React.FC = () => {
+  const { pathname } = useLocation();
   return (
     <nav className="navbar">
       <div className="container">
@@ -26,7 +27,13 @@ const Navbar: React.FC = () => {
             </NavLink>
           </ul>
           <div className="user-actions">
-            <NavLink to="/anunciar" exact activeClassName="invisible">
+            <NavLink
+              to="/anunciar"
+              isActive={() =>
+                ["/anunciar", "/nova-doacao", "/novo-pedido"].includes(pathname)
+              }
+              activeClassName="invisible"
+            >
               <button type="button" className="btnAnnounce">
                 Anunciar
               </button>
