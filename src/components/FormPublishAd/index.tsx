@@ -41,10 +41,27 @@ const FormPublishAd: React.FC = () => {
 
           <div className="input-div">
             <h2 className="input-label">Qual a categoria da sua doação?</h2>
-            <select className="input-donating">
+            <select className="input-donating input-select">
               <option>Selecione uma categoria</option>
-              <option value="Lapis">Lápis</option>
-              <option value="Cadernos">Cadernos</option>
+              <option value="Apostilas e livros">Apostilas e livros</option>
+              <option value="Bolsas, estojos e mochilas">
+                Bolsas, estojos e mochilas
+              </option>
+              <option value="Cadernos e papelaria em geral">
+                Cadernos e papelaria em geral
+              </option>
+              <option value="Canetas, lápis e borracha">
+                Canetas, lápis e borracha
+              </option>
+              <option value="Celulares, tablets e computadores">
+                Celulares, tablets e computadores
+              </option>
+              <option value="Compassos, réguas e tesouras">
+                Compassos, réguas e tesouras
+              </option>
+              <option value="Pincéis, tintas e colas">
+                Pincéis, tintas e colas
+              </option>
             </select>
             <span className="donation-description">
               Selecione a melhor categoria para identificar o que você está
@@ -128,6 +145,9 @@ const FormPublishAd: React.FC = () => {
               como vai fazer a doação é você
             </span>
           </div>
+          <button className="submit-form" type="submit">
+            Publicar anúncio
+          </button>
         </form>
         <div className="new-donation-images-wrapper">
           <img
