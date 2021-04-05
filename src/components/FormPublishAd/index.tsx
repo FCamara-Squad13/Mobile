@@ -1,5 +1,7 @@
 /* eslint-disable jsx-a11y/label-has-associated-control */
 import React from "react";
+import { Link } from "react-router-dom";
+
 import "./style.css";
 
 import imageUploader from "../../assets/images/image-upload.png";
@@ -145,9 +147,11 @@ const FormPublishAd: React.FC = () => {
               como vai fazer a doação é você
             </span>
           </div>
-          <button className="submit-form-button" type="submit">
-            Publicar anúncio
-          </button>
+          <Link to="/publicado" className="form-button">
+            <button className="submit-form-button" type="button">
+              Publicar anúncio
+            </button>
+          </Link>
         </form>
         <div className="new-donation-images-wrapper">
           <img
