@@ -1,0 +1,14 @@
+.go-back-button {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17.07px;
+  color: var(--color-peach-darkest);
+  background-color: #FFFFFF;
+  border: none;
+  display: block;
+  margin: 18px 0 30px;
+}
+
+.go-back-button:hover {
+  cursor: pointer;
+}
