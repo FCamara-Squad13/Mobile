@@ -145,7 +145,7 @@ const FormPublishAd: React.FC = () => {
               como vai fazer a doação é você
             </span>
           </div>
-          <button className="submit-form" type="submit">
+          <button className="submit-form-button" type="submit">
             Publicar anúncio
           </button>
         </form>
