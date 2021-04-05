@@ -18,7 +18,6 @@ const HomeCard: React.FC<Props> = ({
   imagePath,
   title,
   location,
-  description,
   date,
   category,
   delivery,
