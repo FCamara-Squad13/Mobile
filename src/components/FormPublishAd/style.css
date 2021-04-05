@@ -48,6 +48,10 @@
   width: 100%;
 }
 
+.input-select {
+  background-color: #FFFFFF;
+}
+
 .input-donating,
 .input-city-donating {
   height: 40px;
@@ -158,3 +162,15 @@
   width: 368px;
 }
 
+.submit-form {
+  font-weight: 500;
+  font-size: 21px;
+  line-height: 25.2px;
+  display: block;
+  width: 100%;
+  border: none;
+  padding: 1em 0;
+  margin-bottom: 70px;
+  color: #FFFFFF;
+  background-color: #616161;
+}
