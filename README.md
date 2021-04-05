@@ -58,6 +58,8 @@ The main technologies used in our aplication are:
   <li>Estão doando </li>
   <li>Estão precisando </li>
   <li>Anunciar </li>
+  <li>Estão doando-Detalhes</li>
+  <li>Estão precisando-Detalhes</li>
 </ul>
 
 <h3>Landing page</h3>
@@ -68,7 +70,7 @@ The main technologies used in our aplication are:
 <img src="imagens_telas/tela3.png">
 <h3>Anunciar</h3>
 <img src="imagens_telas/tela4.png">
---OBS: Telas prontas porem ,ainda faltando algumas telas e outras coisas ,testado e sem bugs .
+
 
 
 ## 💻 Getting started
