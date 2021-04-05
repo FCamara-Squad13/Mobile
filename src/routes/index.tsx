@@ -13,6 +13,7 @@ import Footer from "../components/Footer";
 import Detalhes from "../pages/Detalhes";
 import NovaDoacao from "../pages/NovaDoacao";
 import NovoPedido from "../pages/NovoPedido/NovoPedido";
+import AnuncioPublicado from "../pages/AnuncioPublicado";
 
 const Routes: React.FC = () => (
   <>
@@ -28,6 +29,7 @@ const Routes: React.FC = () => (
       <Route path="/detalhes" component={Detalhes} />
       <Route path="/nova-doacao" component={NovaDoacao} />
       <Route path="/novo-pedido" component={NovoPedido} />
+      <Route path="/publicado" component={AnuncioPublicado} />
     </Switch>
     <Footer />
   </>
